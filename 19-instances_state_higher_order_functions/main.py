@@ -9,7 +9,7 @@ def move_forwards():
 
 
 screen.listen()
-screen.onkey(key="space", fun=move_forwards)
+screen.onkey(key="space", fun=move_forwards) # event listener
 screen.exitonclick()
 
 
